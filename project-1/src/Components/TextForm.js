@@ -9,6 +9,8 @@ export default function TextForm(props) {
         setText(event.target.value);
     }
 
+    
+
     const handleOnUpperCase = () => {
         console.log("On Click...");
         const newText = text.toUpperCase();
