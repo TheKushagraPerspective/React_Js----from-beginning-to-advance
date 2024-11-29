@@ -19,6 +19,7 @@ function App() {
               <button onClick={() => setBgColor('teal')} style={{backgroundColor : 'teal'}}>Teal</button>
               <button onClick={() => setBgColor('cyan')} style={{backgroundColor : 'cyan'}}>Cyan</button>
               <button onClick={() => setBgColor('gold')} style={{backgroundColor : 'gold'}}>Gold</button>
+              <button onClick={() => setBgColor('black')} style={{backgroundColor : 'black' , color : 'white'}}>Black</button>
           </div>
 
       </div>
